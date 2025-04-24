@@ -12,7 +12,7 @@ headers = {
     "User-Agent": "Mozilla/5.0 (compatible; Python Crawler/1.0; +https://www.iac.org/)"
 }
 
-for year in range(1950, 1980):
+for year in range(2025, 2026):
     for month in range(1, 13):
         url = base_url.format(year=year, month=month)
         filename = f"SA-{year}-{month:02d}.pdf"
